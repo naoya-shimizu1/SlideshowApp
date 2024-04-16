@@ -98,10 +98,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zC2-0k-TIe">
-                                <rect key="frame" x="0.0" y="100" width="393" height="592"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="592"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddb-jb-pdk" userLabel="back Button">
-                                <rect key="frame" x="168.66666666666666" y="757" width="56" height="35"/>
+                                <rect key="frame" x="168.66666666666666" y="707" width="56" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                                 <connections>
@@ -116,8 +116,8 @@
                             <constraint firstItem="ddb-jb-pdk" firstAttribute="top" secondItem="zC2-0k-TIe" secondAttribute="bottom" constant="65" id="77O-ij-2uH"/>
                             <constraint firstItem="ddb-jb-pdk" firstAttribute="centerX" secondItem="zC2-0k-TIe" secondAttribute="centerX" id="7Yw-3s-lA6"/>
                             <constraint firstItem="fYn-Gn-Gma" firstAttribute="trailing" secondItem="zC2-0k-TIe" secondAttribute="trailing" id="BLj-RD-pte"/>
-                            <constraint firstItem="fYn-Gn-Gma" firstAttribute="bottom" secondItem="ddb-jb-pdk" secondAttribute="bottom" constant="50" id="Sqj-Eh-ip0"/>
-                            <constraint firstItem="zC2-0k-TIe" firstAttribute="top" secondItem="fYn-Gn-Gma" secondAttribute="top" constant="100" id="vFO-Hb-abP"/>
+                            <constraint firstItem="fYn-Gn-Gma" firstAttribute="bottom" secondItem="ddb-jb-pdk" secondAttribute="bottom" constant="100" id="Sqj-Eh-ip0"/>
+                            <constraint firstItem="zC2-0k-TIe" firstAttribute="top" secondItem="fYn-Gn-Gma" secondAttribute="top" constant="50" id="vFO-Hb-abP"/>
                             <constraint firstItem="zC2-0k-TIe" firstAttribute="leading" secondItem="fYn-Gn-Gma" secondAttribute="leading" id="wYO-su-3Ff"/>
                         </constraints>
                     </view>
