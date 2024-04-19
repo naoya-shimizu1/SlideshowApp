@@ -18,9 +18,9 @@ class ViewController: UIViewController {
     var timer: Timer!
     
     var imageArr:[UIImage] = [
-        UIImage(named: "Wine Crossover")!,
-        UIImage(named: "key chein access")!,
-        UIImage(named: "Menu")!
+        UIImage(named: "keyCheinAccess")!,
+        UIImage(named: "menu")!,
+        UIImage(named: "wineCrossOver")!
     ]
 
     override func viewDidLoad() {
