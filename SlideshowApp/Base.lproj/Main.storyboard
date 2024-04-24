@@ -24,7 +24,7 @@
                                     <action selector="autoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ubb-so-Gxy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jrw-4A-xUa">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jrw-4A-xUa">
                                 <rect key="frame" x="60" y="159.00000000000003" width="273" height="424.66666666666674"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -82,7 +82,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ta5-OE-OBH">
                     <connections>
-                        <action selector="tapped:" destination="BYZ-38-t0r" id="Azk-ER-hVG"/>
                         <segue destination="jXG-jP-T2R" kind="show" id="wAC-q5-gJM"/>
                     </connections>
                 </tapGestureRecognizer>

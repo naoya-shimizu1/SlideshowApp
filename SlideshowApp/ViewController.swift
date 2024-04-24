@@ -87,13 +87,24 @@ class ViewController: UIViewController {
     
     }
     
-    @IBAction func tapped(_ sender: Any) {
-        
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         resultViewController.image = imageArr[nowIndex]
+        
+        // スライドショー実行中の場合、スライドショー開始前状態にする
+        if goButton.isHidden == true {
+            // 停止時の処理を実装
+            // タイマーを停止する
+            timer.invalidate()
+
+            // タイマーを削除しておく(timer.invalidateだけだとtimerがnilにならないため)
+            timer = nil
+
+            // ボタンの名前を再生に直しておく
+            autoButton.setTitle("再生", for: .normal)
+            goButton.isHidden = false
+            backButton.isHidden = false
+        }
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
